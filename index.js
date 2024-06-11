@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(cors({
   credentials: true,
-  origin: "node-js-ecomm-mh0qv0svg-munshitesting101gmailcoms-projects.vercel.app",
+  origin: "",
   allowedHeaders: ["Content-Type", "Authorization", "other-header"]
 }));
 
